@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components{
+  .btn-left{
+    @apply flex items-center gap-5 text-[16px] text-[#0f0f0f]
+  }
+}
